@@ -15,13 +15,20 @@ public class ArrayExample {
 		myFriends[1] = "rambo";
 		myFriends[2] = "obama";
 		myFriends[3] = "michelle";
-
 		
-		System.out.println(myFriends[4]);
+//		System.out.println(myFriends[3]);\
+//		System.out.println(myFriends.length);
+		
+//		for(int i=0; i<myFriends.length; i++) {
+//			System.out.println(myFriends[i]);
+//		}
+		
+		for (String name : myFriends) {
+			System.out.println(name);
+		}
 		
 	}
 	
-
 	public static void main(String[] args) {
 		ArrayExample obj = new ArrayExample();
 		obj.arrayDemo();
